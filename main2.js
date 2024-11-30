@@ -61,3 +61,33 @@
 // alert( 2 != 1);
 
 // condicionales
+// let year = prompt("ingrese el ano actual:");
+
+// if ( year == 2024 ) {
+//     alert("Muy Bien");
+//     alert("Eres Genial");
+// }
+
+// else
+// let year = prompt("ingrese el ano actual:");
+
+// if ( year == 2024 ) {
+//     alert("Muy Bien");
+//     alert("Eres Genial");
+// } else {
+//     alert("No es Correcto");
+// }
+
+// condicionales encadenados
+let year = prompt("ingrese el ano actual:");
+
+if ( year == 2024 ) {
+    alert("Muy Bien");
+    alert("Eres Genial");
+} else if (year > 2024) {
+    alert("Muy Alto");
+} else if( year < 2024) {
+    alert("Muy Bajo")
+} else {
+    alert("No es Correcto");
+}
