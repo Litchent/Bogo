@@ -1,0 +1,17 @@
+/* Selector con etiquetas */
+header h1 {
+    color: blueviolet;
+}
+
+p {
+    color: goldenrod;
+}
+/* Selector de clase */
+.subtitulo {
+    color: darkgreen;
+}
+
+/* Selector de tipo */
+#texto-id {
+    color: darkred;
+}
