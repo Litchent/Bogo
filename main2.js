@@ -79,15 +79,102 @@
 // }
 
 // condicionales encadenados
-let year = prompt("ingrese el ano actual:");
+// let year = prompt("ingrese el ano actual:");
 
-if ( year == 2024 ) {
-    alert("Muy Bien");
-    alert("Eres Genial");
-} else if (year > 2024) {
-    alert("Muy Alto");
-} else if( year < 2024) {
-    alert("Muy Bajo")
-} else {
-    alert("No es Correcto");
+// if ( year == 2024 ) {
+//     alert("Muy Bien");
+//     alert("Eres Genial");
+// } else if (year > 2024) {
+//     alert("Muy Alto");
+// } else if( year < 2024) {
+//     alert("Muy Bajo")
+// } else {
+//     alert("No es Correcto");
+// }
+
+// operadores logicos
+// or ||
+// alert( true || true ); // true
+// alert( true || false ); // true
+// alert( false || true ); // true
+// alert(false || false ); // false
+
+
+// let hour = 12;
+// let isWeekend = false;
+
+// if ( hour < 9 || hour > 18 || isWeekend ){
+//     alert("La oficina esta cerrada");
+// }else {
+//     alert("Open!");
+// }
+
+// and &&
+// alert( true && true ); // true
+// alert( true && false ); // false 
+// alert( false && true ); // false
+// alert( false && false ); // false
+
+// solution
+// let username = prompt('quien eres tu?.', '');
+// if (username == "Admin") {
+//     let Password = prompt('clave?', '');
+
+//     if (Password == "TheMaster") {
+//         alert("Welcome"); 
+//     } else if (password == '' || password == null)
+//         alert("Cancelado")
+//     } else{
+//         alert("Clave incorrecta");
+// } else if (( username == "" || username == null)) {
+//     alert("Cancelado");
+// } else {
+//     alert(" no se quien eres :b");
+// }
+
+// ciclos while
+// while (condition) {
+//       sentences;
+//       sentences;
+// }
+
+// let counter = 0;
+
+// while (counter < 3) {
+//     alert(counter);
+//     counter++;
+// }
+
+// ciclo for
+// for (Begin; CSSConditionRule, step); {
+//  for body
+// }
+
+// for ( let counter = 0; counter < 3; counter++) {
+//     alert(counter);
+// }
+
+// // funciones
+// function showMessage() {
+//     alert("Hola Mundo");
+// }
+// showMessage();
+// showMessage();
+
+// funciones con variables locales
+// 
+// function showMessage() {
+//     let message = "epale :)"
+//     alert(message);
+// }
+// showMessage();
+// // alert(message);
+
+// funciones con variables externas
+let username = "Josefino";
+function showMessage() {
+    let message = "epale :)" + username;
+    alert(message);
 }
+
+showMessage();
